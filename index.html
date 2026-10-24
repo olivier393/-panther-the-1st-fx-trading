@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panther The 1st FX Trading</title>
+<meta name="description" content="Panther The 1st FX Trading — Learn forex trading, market analysis and risk management.">
+<style>
+:root {
+  --black: #080808;
+  --panel: #141414;
+  --gold: #d4af37;
+  --white: #f8f8f8;
+  --muted: #b8b8b8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+header {
+  padding: 18px 7%;
+  border-bottom: 1px solid #302713;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.logo { color: var(--gold); font-size: 20px; font-weight: bold; }
+nav { display: flex; gap: 18px; flex-wrap: wrap; }
+nav a { color: var(--white); text-decoration: none; font-size: 14px; }
+nav a:hover { color: var(--gold); }
+.hero {
+  min-height: 75vh;
+  padding: 80px 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(ellipse at top right, #35280c, #080808 60%);
+}
+.tag { color: var(--gold); letter-spacing: 3px; font-size: 12px; }
+h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.12; margin: 18px 0; }
+h1 span, h2 span { color: var(--gold); }
+.hero p { color: var(--muted); max-width: 600px; }
+.buttons { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
+.btn {
+  display: inline-block; padding: 12px 22px;
+  text-decoration: none; font-weight: bold; border-radius: 4px;
+}
+.primary { background: var(--gold); color: #080808; }
+.secondary { border: 1px solid var(--gold); color: var(--gold); }
+section { padding: 65px 7%; }
+h2 { font-size: clamp(28px, 5vw, 40px); margin-bottom: 18px; }
+.intro { color: var(--muted); max-width: 700px; margin-bottom: 28px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 18px; }
+.card {
+  padding: 24px; background: var(--panel);
+  border: 1px solid #342b18; border-radius: 8px;
+}
+.card .symbol { color: var(--gold); font-size: 28px; }
+.card h3 { margin: 8px 0; color: var(--gold); }
+.card p { color: var(--muted); font-size: 14px; }
+.market { border-left: 3px solid var(--gold); }
+.contact { background: #111; }
+.contact a { color: var(--gold); overflow-wrap: anywhere; }
+.notice { color: var(--muted); font-size: 13px; margin-top: 20px; }
+footer {
+  padding: 25px 7%; text-align: center;
+  border-top: 1px solid #302713; color: var(--muted); font-size: 13px;
+}
+@media(max-width:500px) {
+  header { align-items: flex-start; }
+  nav { gap: 12px; }
+  .hero { min-height: 65vh; padding-top: 55px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">♠ PANTHER FX</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#markets">Markets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="tag">DISCIPLINE • STRATEGY • GROWTH</div>
+  <h1>PANTHER THE 1ST<br><span>FX TRADING</span></h1>
+  <p>Build your understanding of the financial markets through education, technical analysis and disciplined risk management.</p>
+  <div class="buttons">
+    <a class="btn primary" href="#services">Explore Services</a>
+    <a class="btn secondary" href="#contact">Contact Us</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About <span>Panther FX</span></h2>
+  <p class="intro">Our mission is to help people understand forex trading, read market structure and develop responsible trading habits. Knowledge and risk management come first.</p>
+  <div class="grid">
+    <article class="card">
+      <div class="symbol">♛</div>
+      <h3>Our Vision</h3>
+      <p>Promote financial-market education and thoughtful decision-making.</p>
+    </article>
+    <article class="card">
+      <div class="symbol">◆</div>
+      <h3>Our Values</h3>
+      <p>Discipline, patience, continuous learning and responsible risk management.</p>
+    </article>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our <span>Services</span></h2>
+  <p class="intro">Explore our trading education and market-learning services.</p>
+  <div class="grid">
+    <article class="card">
+      <div class="symbol">⌁</div>
+      <h3>Market Analysis</h3>
+      <p>Learn about trends, support and resistance, liquidity and market structure.</p>
+    </article>
+    <article class="card">
+      <div class="symbol">▤</div>
+      <h3>Forex Education</h3>
+      <p>Understand currency pairs, candlesticks, timeframes and trading terminology.</p>
+    </article>
+    <article class="card">
+      <div class="symbol">◇</div>
+      <h3>Risk Management</h3>
+      <p>Learn position sizing, stop-loss planning and the importance of protecting capital.</p>
+    </article>
+  </div>
+</section>
+
+<section id="markets">
+  <h2>Markets We <span>Study</span></h2>
+  <p class="intro">Educational market analysis. Conditions change, and no market direction or result is guaranteed.</p>
+  <div class="grid">
+    <article class="card market">
+      <h3>XAUUSD — Gold</h3>
+      <p>Study gold price movements, key levels, liquidity and market structure.</p>
+    </article>
+    <article class="card market">
+      <h3>Forex Pairs</h3>
+      <p>Learn how major currency pairs move and how economic news affects prices.</p>
+    </article>
+    <article class="card market">
+      <h3>Trading Psychology</h3>
+      <p>Develop patience, discipline and a consistent learning process.</p>
+    </article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Let's <span>Connect</span></h2>
+  <p class="intro">Contact Panther The 1st FX Trading for enquiries and educational information.</p>
+  <div class="grid">
+    <article class="card">
+      <h3>Email</h3>
+      <p><a href="mailto:Ishimwesangoolivier@gmail.com">Ishimwesangoolivier@gmail.com</a></p>
+    </article>
+    <article class="card">
+      <h3>WhatsApp</h3>
+      <p><a href="https://wa.me/250786557229" target="_blank" rel="noopener">Chat with us on WhatsApp</a></p>
+    </article>
+    <article class="card">
+      <h3>Phone</h3>
+      <p><a href="tel:+250794783965">+250 794 783 965</a></p>
+    </article>
+  </div>
+  <p class="notice">Risk warning: Forex and leveraged trading involve significant risk and may result in the loss of money. This website provides educational information, not personalized financial advice or guaranteed profits.</p>
+</section>
+</main>
+
+<footer>
+  © 2026 Panther The 1st FX Trading. All rights reserved.
+</footer>
+</body>
+</html>
